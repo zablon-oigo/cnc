@@ -1,1 +1,167 @@
+# ☕ Kenyan Coffee Kiosk
 
+A modern web application for ordering coffee and making payments via M-Pesa in Kenya.
+
+## 🚀 Features
+
+- **🛍️ Shopping Experience**
+  - Browse coffee products with images and descriptions
+  - View real-time pricing with discount support
+  - Add items to cart with quantity control
+  - Responsive design for all devices
+
+- **💸 Payment Integration**
+  - M-Pesa STK Push integration
+  - Phone number validation
+  - Real-time payment status updates
+  - Secure transaction handling
+
+- **🎨 Modern UI**
+  - Clean, minimalist design
+  - Smooth animations and transitions
+  - Custom cursor effects
+  - Warm, coffee-inspired color scheme
+
+## 🛠️ Tech Stack
+
+- **Frontend**
+  - React.js
+  - Tailwind CSS
+  - Framer Motion (animations)
+  - React Hot Toast (notifications)
+
+- **Backend**
+  - Node.js
+  - Express.js
+  - M-Pesa Daraja API
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/kenyan-coffee-kiosk.git
+cd kenyan-coffee-kiosk
+```
+
+2. Install dependencies:
+```bash
+# Install backend dependencies
+cd backend
+npm install
+
+# Install frontend dependencies
+cd ../frontend
+npm install
+```
+
+3. Configure environment variables:
+```bash
+# Backend (.env)
+MPESA_CONSUMER_KEY=your_consumer_key
+MPESA_CONSUMER_SECRET=your_consumer_secret
+MPESA_PASSKEY=your_passkey
+MPESA_SHORTCODE=your_shortcode
+```
+
+4. Start the development servers:
+```bash
+# Start backend server
+cd backend
+npm run dev
+
+# Start frontend server
+cd ../frontend
+npm run dev
+```
+
+## 🌐 API Endpoints
+
+- `POST /pay` - Initiate M-Pesa payment
+  - Request body: `{ phone: string, amount: number }`
+  - Response: Payment status and transaction details
+
+## 🎯 Project Structure
+
+```
+kenyan-coffee-kiosk/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── utils/
+│   ├── .env
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── hooks/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── public/
+│   └── package.json
+└── README.md
+```
+
+## 🔒 Security Considerations
+
+- Phone number validation (254 prefix)
+- Secure API key storage
+- Input sanitization
+- Error handling and logging
+
+## 📱 Mobile Responsiveness
+
+The application is fully responsive and optimized for:
+- Mobile devices (1 column layout)
+- Tablets (2 column layout)
+- Desktop (3 column layout)
+
+## 🎨 UI Components
+
+- **Navigation Bar**
+  - Logo and brand name
+  - Navigation links
+  - Cart counter
+  - Login button
+
+- **Hero Section**
+  - Welcome message
+  - Call-to-action buttons
+
+- **Product Cards**
+  - Product image
+  - Name and description
+  - Price with discount support
+  - Add to cart button
+
+- **Cart Modal**
+  - Item list with quantity controls
+  - Total price calculation
+  - M-Pesa payment form
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- M-Pesa Daraja API documentation
+- React and Tailwind CSS communities
+- Coffee enthusiasts everywhere ☕
+
+## 📞 Support
+
+For support, email support@kenyancoffeekiosk.com or create an issue in the repository.
+
+---
+
+Made with ❤️ by Kenyan Coffee Kiosk Team 
