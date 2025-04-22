@@ -31,7 +31,7 @@ A modern web application for ordering coffee and making payments via M-Pesa.
   - Express.js
   - M-Pesa Daraja API
 
-### environment variables:
+### Environment variables:
 ```bash
 # Backend (.env)
 MPESA_CONSUMER_KEY=your_consumer_key
