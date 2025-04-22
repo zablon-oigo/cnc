@@ -1,5 +1,8 @@
 # Coffee and Code At Technical University Of Kenya
-
+## Tools
+- MySQL
+- Cursor
+- Ngrok
 #### prompt
 ```
  Write a comprehensive PRD (Product Requirements Document) for a simple coffee shop backend built using Node.js, Express, MySQL, and M-Pesa integration for payments via STK Push.
