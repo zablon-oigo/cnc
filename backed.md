@@ -1,13 +1,11 @@
 # ☕ Coffee Kiosk
 
-A modern web application for ordering coffee and making payments via M-Pesa in Kenya.
+A modern web application for ordering coffee and making payments via M-Pesa.
 
 ## 🚀 Features
 
 - **🛍️ Shopping Experience**
   - Browse coffee products with images and descriptions
-  - View real-time pricing with discount support
-  - Add items to cart with quantity control
   - Responsive design for all devices
 
 - **💸 Payment Integration**
@@ -27,34 +25,13 @@ A modern web application for ordering coffee and making payments via M-Pesa in K
 - **Frontend**
   - React.js
   - Tailwind CSS
-  - Framer Motion (animations)
-  - React Hot Toast (notifications)
 
 - **Backend**
   - Node.js
   - Express.js
   - M-Pesa Daraja API
 
-## 📦 Installation
-
-1. Clone the repository:
-```bash
-git clone 
-cd kenyan-coffee-kiosk
-```
-
-2. Install dependencies:
-```bash
-# Install backend dependencies
-cd backend
-npm install
-
-# Install frontend dependencies
-cd ../frontend
-npm install
-```
-
-3. Configure environment variables:
+### environment variables:
 ```bash
 # Backend (.env)
 MPESA_CONSUMER_KEY=your_consumer_key
@@ -110,13 +87,6 @@ kenyan-coffee-kiosk/
 - Input sanitization
 - Error handling and logging
 
-## 📱 Mobile Responsiveness
-
-The application is fully responsive and optimized for:
-- Mobile devices (1 column layout)
-- Tablets (2 column layout)
-- Desktop (3 column layout)
-
 ## 🎨 UI Components
 
 - **Navigation Bar**
@@ -139,10 +109,3 @@ The application is fully responsive and optimized for:
   - Item list with quantity controls
   - Total price calculation
   - M-Pesa payment form
-
-## 🙏 Acknowledgments
-
-- M-Pesa Daraja API documentation
-- React and Tailwind CSS communities
-- Coffee enthusiasts everywhere ☕
-
