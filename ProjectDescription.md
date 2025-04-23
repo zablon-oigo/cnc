@@ -44,7 +44,7 @@ MPESA_SHORTCODE=your_shortcode
 ```bash
 # Start backend server
 cd backend
-npm run dev
+npm app.js
 
 # Start frontend server
 cd ../frontend
@@ -53,8 +53,8 @@ npm run dev
 
 ## 🌐 API Endpoints
 
-- `POST /pay` - Initiate M-Pesa payment
-  - Request body: `{ phone: string, amount: number }`
+- POST /pay - Initiate M-Pesa payment
+  - Request body: { phone: string, amount: number }
   - Response: Payment status and transaction details
 
 ## 🎯 Project Structure
