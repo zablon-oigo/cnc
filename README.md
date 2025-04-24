@@ -5,10 +5,8 @@
 Use the following prompt to generate a **Product Requirements Document (PRD)** for this project:
 
 ---
-
-```
 ## 📌 Prompt for Backend
-
+```
 Create a detailed Product Requirements Document (PRD) for a minimalistic Node.js-based API service that integrates with the **Safaricom M-PESA STK Push** payment gateway in a **sandbox environment**.
 
 ### 🔒 Constraints
